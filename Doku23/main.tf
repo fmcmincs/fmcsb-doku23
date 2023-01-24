@@ -19,11 +19,12 @@ provider "aws" {
 
 resource "aws_instance" "app_server_fmctest" {
   ami           = "ami-0fe0b2cf0e1f25c8a"
+  #bitte in micro umwandeln
   instance_type = "t2.nano"
 
   tags = {
     # Eigenen Namen hier eingeben
-    Name = "fairmarchristopherschmidt"
+    Name = "gruppe62instanztest"
 
     Umgebung = "sandbox"
   }
