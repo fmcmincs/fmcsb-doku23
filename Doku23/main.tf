@@ -15,9 +15,6 @@ provider "aws" {
   
   # Eigenes CLI SSO Profil hier eingeben
   profile = "fmcmincs"
-
-  #bitte diese zwei Zeilen löschen...
-  #shared_credentials_files = ["~/.aws/config"]
 }
 
 resource "aws_instance" "app_server_fmctest" {
@@ -25,7 +22,7 @@ resource "aws_instance" "app_server_fmctest" {
   instance_type = "t2.micro"
 
   tags = {
-    # Eigenen Noomenaeoidn hier eingeben
+    # Eigenen Namen hier eingeben
     Name = "fairmarchristopherschmidt"
 
     Umgebung = "sandbox"
