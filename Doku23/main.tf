@@ -25,7 +25,7 @@ resource "aws_instance" "app_server_fmctest" {
   instance_type = "t2.micro"
 
   tags = {
-    # Eigenen Namen hier eingeben
+    # Eigenen Noomenaeoidn hier eingeben
     Name = "fairmarchristopherschmidt"
 
     Umgebung = "sandbox"
