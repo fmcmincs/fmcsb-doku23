@@ -27,8 +27,8 @@ resource "aws_instance" "app_server_fmctest" {
 
     Umgebung = "sandbox"
   }
-}
 
+}
 
 #pull request
 #new pull request61
