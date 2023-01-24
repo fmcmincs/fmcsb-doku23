@@ -28,6 +28,3 @@ resource "aws_instance" "app_server_fmctest" {
     Umgebung = "sandbox"
   }
 }
-
-
-#branch-kommentar
